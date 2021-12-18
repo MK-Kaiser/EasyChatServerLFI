@@ -41,6 +41,7 @@ def main():
         print('Usage: python3 ecsLFI.py -t [url]')
         exit(0)
     else:
+        print("Type 'exit' at the prompt to quit.")
         lfi(target)
         
 if __name__ == '__main__':
