@@ -1,5 +1,6 @@
 # Exploits Directory Traversal and File Read vulnerability in Easy Chat Server 3.1 application
 # python3 POC by Mark Kaiser for EDB-ID: 50437
+# Recommended files to try on windows target: /windows/win.ini or /windows/system32/license.rtf or /windows/panther/unattend.xml
 #!/usr/bin/env python3
 
 import requests, argparse
